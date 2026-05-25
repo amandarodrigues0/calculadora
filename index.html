@@ -13,8 +13,8 @@
         <div class="Calculadora">
             <p id=" Resultados"></p>
             <table>
-                <td><button class="botao" onclick=""> C </button></td>
-                <td><button class="botao" onclick=""> < </button></td>
+                <td><button class="botao" onclick="clean()"> C </button></td>
+                <td><button class="botao" onclick="back()"> < </button></td>
                 <td><button class="botao" onclick=""> / </button></td>
                 <td><button class="botao" onclick=""> X </button></td>
                 </tr>
@@ -34,8 +34,9 @@
                     <td><button class="botao" onclick=""> 1 </button></td>
                     <td><button class="botao" onclick=""> 2 </button></td>
                     <td><button class="botao" onclick=""> 3 </button></td>
-                    <td><button class="botao" onclick=""> = </button></td>
+                    <td rowspan="2"><button class="botao" style="height:106px;" onclick="calcular()"> = </button></tr>./td>
                 </tr>
+                ><td colspan="2"><button class="botao" style="width:106;" onclick=" ">0</button></td>
             </table>
     </div>
     </div>
